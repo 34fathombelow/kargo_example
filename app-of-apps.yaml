@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: apps
 spec:
-  project: default
+  project: kargo
   syncPolicy:
     automated: {}
   source:
