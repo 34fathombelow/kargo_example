@@ -4,5 +4,5 @@ kind: Kustomization
 resources:
 - ../../base
 images:
-- name: ghcr.io/dhpup/guestbook
-  newTag: 0.1.40
+- name: ghcr.io/34fathombelow/akuity_guestbook
+  newTag: v0.1
