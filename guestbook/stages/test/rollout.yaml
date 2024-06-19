@@ -18,7 +18,7 @@ spec:
       - image: ghcr.io/34fathombelow/akuity_guestbook
         name: guestbook
         ports:
-        - containerPort: 80
+        - containerPort: 3000
   strategy:
     canary:
       canaryService: preview-guestbook
