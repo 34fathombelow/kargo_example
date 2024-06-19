@@ -23,7 +23,7 @@ metadata:
 #  labels:
 #    kargo.akuity.io/shard: kargo-agent
 spec:
-  interval: 3m
+  interval: 3m0s
   shard: justin-demo
   subscriptions:
   - git:
