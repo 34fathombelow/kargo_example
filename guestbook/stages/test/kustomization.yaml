@@ -17,4 +17,4 @@ patches:
     name: guestbook
 images:
 - name: ghcr.io/34fathombelow/akuity_guestbook
-  newTag: v0.1
+  newTag: v0.2
