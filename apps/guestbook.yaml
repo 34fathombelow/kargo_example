@@ -24,7 +24,7 @@ spec:
         path: guestbook/stages/{{stage}}
       destination:
         name: kargo
-        namespace: guestbook-{{stage}}
+        namespace: kargo-guestbook-{{stage}}
       syncPolicy:
         syncOptions:
         - CreateNamespace=true
