@@ -13,7 +13,7 @@ spec:
       - stage: prod-uswest
   template:
     metadata:
-      name: guestbook-{{stage}}
+      name: kargo-guestbook-{{stage}}
       annotations:
         kargo.akuity.io/authorized-stage: guestbook:{{stage}}
     spec:
