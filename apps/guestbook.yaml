@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: kargo-guestbook
+  name: kargo-appset-guestbook
   namespace: argocd
 spec:
   generators:
